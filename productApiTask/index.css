@@ -1,0 +1,20 @@
+.parent {
+  height: auto;
+  width: 100vw;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.parent .product-card {
+  text-align: center;
+  height: fit-content;
+  width: 400px;
+  background-color: wheat;
+  margin-bottom: 20px;
+}
+
+.parent .product-card img {
+  height: 200px;
+  width: 200px;
+}
